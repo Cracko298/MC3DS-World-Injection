@@ -4,7 +4,6 @@ from sys import argv
 
 def to_JSON(file,out):
     blangFile = BlangFile().open(file)
-    os.get_exec_path()
     blangFile.toJson(out)
 
 def to_BLANG(file,out):
